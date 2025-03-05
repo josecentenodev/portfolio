@@ -10,17 +10,17 @@ export default function Technologies() {
   const techCategories: TechCategory[] = [
     {
       name: 'Frontend',
-      technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind'],
+      technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Angular', 'Material UI',],
       badgeColor: 'bg-blue-500'
     },
     {
       name: 'Backend',
-      technologies: ['Node.js', 'Express', 'MongoDB'],
+      technologies: ['Node.js', 'Express', 'PostgreSQL', 'MySQL',],
       badgeColor: 'bg-green-500'
     },
     {
       name: 'Herramientas',
-      technologies: ['Git', 'Docker', 'AWS'],
+      technologies: ['Git', 'Docker', 'AWS', 'Postman', 'Swagger', 'Jira', 'Figma'],
       badgeColor: 'bg-purple-500'
     },
     {

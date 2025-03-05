@@ -1,22 +1,18 @@
+import Badge from "./Badge";
+
 export default function SocialLinks() {
   return (
     <div className="flex gap-4">
-      <a
+      <Badge
+        text="GitHub"
+        backgroundColor="bg-[#181717]"
         href="https://github.com/josecentenodev"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
-      >
-        GitHub
-      </a>
-      <a
+      />
+      <Badge
+        text="LinkedIn"
+        backgroundColor="bg-[#0E76A8]"
         href="https://linkedin.com/in/josecentenodev"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
-      >
-        LinkedIn
-      </a>
+      />
     </div>
   );
 } 

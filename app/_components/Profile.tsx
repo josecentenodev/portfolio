@@ -17,11 +17,11 @@ export default function Profile() {
         <div>
           <h1 className="text-4xl font-bold mb-4">José Centeno</h1>
           <p className="text-lg text-gray-200 mb-4">
-            Desarrollador Web Full Stack
+            Desarrollador Full Stack especializado en frontend
           </p>
           <p className="text-gray-300 mb-6">
             Con más de dos años de experiencia en desarrollo eficiente y escalable. 
-            Especializado en crear soluciones web robustas y mantenibles. 
+            Dedicado a crear soluciones web robustas y mantenibles. 
             Disponible para nuevos proyectos y colaboraciones.
           </p>
           <SocialLinks />
