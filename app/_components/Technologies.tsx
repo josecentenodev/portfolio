@@ -15,12 +15,12 @@ export default function Technologies() {
     },
     {
       name: 'Backend',
-      technologies: ['Node.js', 'Express', 'PostgreSQL', 'MySQL',],
+      technologies: ['Node.js', 'Express', 'PostgreSQL', 'MySQL', 'tRPC', 'SQL Server', 'Django REST framework', 'Python'],
       badgeColor: 'bg-green-500'
     },
     {
       name: 'Herramientas',
-      technologies: ['Git', 'Docker', 'AWS', 'Postman', 'Swagger', 'Jira', 'Figma'],
+      technologies: ['Git', 'Docker', 'AWS', 'Postman', 'Swagger', 'Jira', 'Figma', 'Visual Studio Code', 'Cursor',],
       badgeColor: 'bg-purple-500'
     },
     {
@@ -32,7 +32,7 @@ export default function Technologies() {
 
   return (
     <section className="glass-container p-8 mb-8">
-      <h2 className="text-2xl font-bold mb-6">Tecnologías</h2>
+      <h2 className="text-2xl font-bold mb-6">Tecnologías con las que he trabajado</h2>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
         {techCategories.map((category) => (
           <TechnologyCategory
