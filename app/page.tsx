@@ -13,7 +13,7 @@ const experienceData = [
       "Principalmente trabajo con Next.js, NextAuth, TailwindCSS, TypeScript, tRPC, PostgreSQL, Prisma, Docker, AWS",
       "Mejoré considerablemente la interfaz de uno de los proyectos de la empresa, que es una aplicación web de digitalización de documentos",
       "Construí una aplicación web para la gestión de clientes con usuarios y permisos de acceso a distintas aplicaciones de la empresa, brindándole la posibilidad de tener control sobre los clientes y sus aplicaciones, también senté las bases monitorear el uso de las aplicaciones",
-      "Éste año 2025 comencé con un gran desafío: el desarrollo de una aplicación web para el gobierno de la provincia de Córdoba, Argentina, que es una aplicación web para la gestión de solicitudes de servicios de los ciudadanos",
+      "Este año 2025 comencé con un gran desafío: el desarrollo de una aplicación web para el gobierno de la provincia de Córdoba, Argentina, que es una aplicación web para la gestión de solicitudes de servicios de los ciudadanos",
       "Tuve que adecuarme a un nuevo stack de tecnologías: Angular, Angular Material, ahora utilizo Angular CLI para crear components, services, modules, etc.",
       "Mi enfoque principal es escribir CLEAN CODE, teniendo en cuenta también SOLID principles, DRY principles, KISS principle, etc.",
       "Intento seguir los principios de CLEAN ARCHITECTURE, para que la aplicación sea fácil de mantener y escalable",
@@ -53,7 +53,7 @@ const experienceData = [
       "Extraje, modifiqué, procesé y transfirí datos (SQL)",
       "Restituí y corregí la base de datos (SQL)",
       "Desarrollé y modificé fórmulas lógicas (VisualBasic)",
-      "Parametrizé e implementé funcionalidades",
+      "Parametricé e implementé funcionalidades",
     ],
   },
 

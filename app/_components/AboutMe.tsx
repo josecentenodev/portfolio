@@ -7,7 +7,7 @@ export default function AboutMe() {
       <h2 className="text-2xl font-bold mb-6">Sobre Mí</h2>
       <div className="space-y-4 text-gray-300">
         <p>
-          Mi viaje en el desarrollo de software comenzó trabajando en el area de
+          Mi viaje en el desarrollo de software comenzó trabajando en el área de
           consultoría de una empresa de desarrollo de software, donde descubrí
           mi pasión por crear soluciones que impactan positivamente en la vida de
           las personas. 

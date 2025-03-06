@@ -24,7 +24,7 @@ export default function Header() {
       </Link>
       <h1 className="text-4xl font-bold mb-4">JavaScript30 Challenge</h1>
       <p className="text-gray-300">
-        Ésta es una adaptación a React de mi viaje a través del desafío de 30 días de
+        Esta es una adaptación a React de mi viaje a través del desafío de 30 días de
         JavaScript de Wes Bos. Una colección de proyectos divertidos y creativos
         que me ayudaron a mejorar mis habilidades en JavaScript vanilla.
       </p>
