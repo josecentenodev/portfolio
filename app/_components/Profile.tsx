@@ -5,7 +5,7 @@ export default function Profile() {
   return (
     <div className="glass-container p-8 mb-8">
       <div className="flex flex-col sm:flex-row items-center gap-8">
-        <div className="relative w-32 h-32 sm:w-52 sm:h-52">
+        <div className="relative w-64 h-64 sm:w-96 sm:h-96">
           <Image
             src="/yo.webp"
             alt="Foto de perfil"
