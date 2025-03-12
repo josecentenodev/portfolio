@@ -24,7 +24,20 @@ const challenges = [
     demo: "/javascript30/css-variables",
     tags: ["CSS", "Variables"],
   },
-
+  {
+    day: 5,
+    title: "Flex Panel Gallery",
+    description: "Crea un galería de imágenes con flexbox",
+    demo: "/javascript30/flex-panel-gallery",
+    tags: ["Flexbox", "CSS"],
+  },
+  {
+    day: 6,
+    title: "Type Ahead",
+    description: "Crea un buscador de ubicación con autocompletado",
+    demo: "/javascript30/type-ahead",
+    tags: ["JavaScript", "API"],
+  },
   // Añadir más desafíos aquí
 ];
 
@@ -35,7 +48,7 @@ export default function JavaScript30Page() {
         <div className="glass-container p-8 mb-8">
           <Header
             title="JavaScript30 Challenge"
-            description="Esta es una adaptación a React de mi viaje a través del desafío de 30 días de JavaScript de Wes Bos. Una colección de proyectos divertidos y creativos que me ayudaron a mejorar mis habilidades en JavaScript vanilla."
+            description="Esta es una adaptación a React de mi viaje a través del desafío de 30 días de JavaScript de Wes Bos. Una selección de proyectos divertidos y creativos que en su momento me ayudaron a mejorar mis habilidades en JavaScript vanilla."
             backLink={{
               href: "/",
               text: "Volver al inicio",
