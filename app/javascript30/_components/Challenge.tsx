@@ -1,3 +1,5 @@
+import Badge from '../../_components/Badge';
+
 interface ChallengeProps {
   day: number;
   title: string;
@@ -6,19 +8,35 @@ interface ChallengeProps {
   tags: string[];
 }
 
+// Array of possible background colors for badges
+const badgeColors = [
+  'bg-blue-500',
+  'bg-green-500',
+  'bg-purple-500',
+  'bg-orange-500',
+  'bg-pink-500',
+  'bg-teal-500',
+  'bg-indigo-500',
+  'bg-red-500'
+];
+
 export default function Challenge({ day, title, description, demo, tags }: ChallengeProps) {
+  // Function to get a random background color
+  const getRandomColor = () => {
+    return badgeColors[Math.floor(Math.random() * badgeColors.length)];
+  };
+
   return (
     <div className="glass-container p-6 hover:scale-102 transition-transform">
       <div className="flex items-start justify-between mb-4">
         <span className="text-sm font-mono text-gray-400">Día {day}</span>
         <div className="flex gap-2">
           {tags.map((tag) => (
-            <span 
+            <Badge 
               key={tag} 
-              className="px-2 py-1 bg-white/10 rounded-full text-xs"
-            >
-              {tag}
-            </span>
+              text={tag}
+              backgroundColor={getRandomColor()}
+            />
           ))}
         </div>
       </div>
