@@ -1,0 +1,100 @@
+{
+  "islands": [
+    {
+      "name": "Laugh Tale",
+      "region": "New World",
+      "location": "Final Island of Grand Line",
+      "description": "The final island of the Grand Line where the One Piece is located",
+      "notable_places": ["Location of One Piece"],
+      "population": "Unknown"
+    },
+    {
+      "name": "Wano Country",
+      "region": "New World",
+      "location": "Isolated Nation",
+      "description": "An isolated country with a unique culture based on feudal Japan",
+      "notable_places": ["Flower Capital", "Kuri", "Ringo", "Hakumai", "Udon"],
+      "population": "Unknown"
+    },
+    {
+      "name": "Whole Cake Island",
+      "region": "New World",
+      "location": "Totto Land",
+      "description": "An island made entirely of sweets and other confectionery",
+      "notable_places": ["Sweet City", "Seducing Woods", "Whole Cake Chateau"],
+      "population": "10,000"
+    },
+    {
+      "name": "Dressrosa",
+      "region": "New World",
+      "location": "Grand Line",
+      "description": "A passionate country known for its corrida coliseum and toys",
+      "notable_places": ["Royal Plateau", "Corrida Coliseum", "Flower Hill"],
+      "population": "1,000,000"
+    },
+    {
+      "name": "Fishman Island",
+      "region": "Grand Line",
+      "location": "10,000 meters under sea level",
+      "description": "An underwater island home to fishmen and merfolk",
+      "notable_places": ["Ryugu Palace", "Fishman District", "Sea Forest"],
+      "population": "5,000,000"
+    },
+    {
+      "name": "Alabasta",
+      "region": "Paradise",
+      "location": "Sandy Island",
+      "description": "A desert kingdom known for its ancient history",
+      "notable_places": ["Alubarna", "Rainbase", "Yuba", "Nanohana"],
+      "population": "10,000,000"
+    },
+    {
+      "name": "Water 7",
+      "region": "Paradise",
+      "location": "Grand Line",
+      "description": "City of water known for shipbuilding and Galley-La Company",
+      "notable_places": ["Galley-La HQ", "Blue Station", "Franky House"],
+      "population": "200,000"
+    },
+    {
+      "name": "Skypiea",
+      "region": "Sky Island",
+      "location": "10,000 meters above sea level",
+      "description": "An island in the sky with unique technology and culture",
+      "notable_places": ["Upper Yard", "Angel Beach", "God's Shrine"],
+      "population": "50,000"
+    },
+    {
+      "name": "Dawn Island",
+      "region": "East Blue",
+      "location": "Goa Kingdom",
+      "description": "Luffy's hometown and location of Foosha Village",
+      "notable_places": ["Foosha Village", "Mt. Colubo", "Gray Terminal", "Goa Kingdom"],
+      "population": "100,000"
+    },
+    {
+      "name": "Thriller Bark",
+      "region": "Florian Triangle",
+      "location": "Largest ship in the world",
+      "description": "A giant ship that functions as an island",
+      "notable_places": ["Moria's Mansion", "Hogback's Laboratory", "Graveyard"],
+      "population": "Unknown"
+    },
+    {
+      "name": "Amazon Lily",
+      "region": "Calm Belt",
+      "location": "Women's Island",
+      "description": "Island of the Kuja tribe, where men are forbidden",
+      "notable_places": ["Kuja Castle", "Combat Arena"],
+      "population": "15,000"
+    },
+    {
+      "name": "Marineford",
+      "region": "Paradise",
+      "location": "Grand Line",
+      "description": "Former Marine Headquarters",
+      "notable_places": ["Oris Plaza", "Execution Platform"],
+      "population": "100,000"
+    }
+  ]
+} 
