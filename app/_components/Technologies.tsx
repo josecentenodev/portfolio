@@ -10,7 +10,7 @@ export default function Technologies() {
   const techCategories: TechCategory[] = [
     {
       name: 'Frontend',
-      technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Angular', 'Material UI',],
+      technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Angular', 'Angular Material', 'Material UI', 'Astro', 'Axios', 'Mantine UI', 'Shadcn UI'],
       badgeColor: 'bg-blue-500'
     },
     {

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Header from "../_components/Header";
+import Header from "../../_components/Header";
 
 interface Panel {
   id: number;

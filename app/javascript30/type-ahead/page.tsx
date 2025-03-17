@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Header from '../_components/Header';
+import Header from '../../_components/Header';
 import islandsData from './islands.json';
 
 interface Island {

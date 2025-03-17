@@ -1,4 +1,4 @@
-import Header from "./_components/Header";
+import Header from "../_components/Header";
 import ChallengeGrid from "./_components/ChallengeGrid";
 
 const challenges = [
