@@ -49,9 +49,9 @@ export default function MyProjects() {
     },
     {
       title: "Gif App 🎥",
-      description: "App para buscar gifs. Utiliza React y Tailwind CSS. Fue mi primer proyecto con React.",
+      description: "App para buscar gifs. Utiliza React, Tailwind CSS, Giphy API y Firebase para el login. Fue mi primer proyecto con React.",
       url: "https://giffyapp-josecentenodev.vercel.app",
-      technologies: ["React", "Tailwind CSS", "Giphy API"],
+      technologies: ["React", "Tailwind CSS", "Giphy API", "Firebase"],
       image: "/giffy.webp"
     }
   ];
