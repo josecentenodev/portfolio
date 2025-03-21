@@ -1,32 +1,35 @@
 export default function NavBar() {
   return (
     <nav className="glass-container p-4 mb-8 sticky top-4 max-w-4xl mx-auto z-10">
-      <ul className="flex justify-center items-center space-x-6">
-        <li>
-          <a href="#inicio" className="hover:text-[#FF0000] hover:scale-110 inline-block transform transition-all duration-300">
+      <ul className="flex flex-wrap justify-center items-center gap-4">
+        {/* Links internos solo visibles en desktop */}
+        <li className="hidden sm:block">
+          <a href="#inicio" className="hover:text-[#FF0000] hover:scale-110 transform transition-all duration-300">
             Inicio
           </a>
         </li>
-        <li>
-          <a href="#sobre-mi" className="hover:text-[#00FF00] hover:scale-110 inline-block transform transition-all duration-300">
+        <li className="hidden sm:block">
+          <a href="#sobre-mi" className="hover:text-[#00FF00] hover:scale-110 transform transition-all duration-300">
             Sobre Mí
           </a>
         </li>
-        <li>
-          <a href="#tecnologias" className="hover:text-[#FFA500] hover:scale-110 inline-block transform transition-all duration-300">
+        <li className="hidden sm:block">
+          <a href="#tecnologias" className="hover:text-[#FFA500] hover:scale-110 transform transition-all duration-300">
             Tecnologías
           </a>
         </li>
-        <li>
-          <a href="#experiencia" className="hover:text-[#87CEEB] hover:scale-110 inline-block transform transition-all duration-300">
+        <li className="hidden sm:block">
+          <a href="#experiencia" className="hover:text-[#87CEEB] hover:scale-110 transform transition-all duration-300">
             Experiencia
           </a>
         </li>
-        <li className="border-l h-6 border-gray-500" aria-hidden="true" />
-        <li>
+        <li className="hidden sm:block border-l h-6 border-gray-500" aria-hidden="true" />
+        
+        {/* Links externos siempre visibles */}
+        <li className="w-full sm:w-auto text-center">
           <a 
             href="/javascript30" 
-            className="group flex items-center space-x-2 hover:text-[#FFD700] hover:scale-110 transform transition-all duration-300"
+            className="group flex items-center justify-center space-x-2 hover:text-[#FFD700] hover:scale-110 transform transition-all duration-300"
           >
             <span>JavaScript30</span>
             <svg 
@@ -44,10 +47,10 @@ export default function NavBar() {
             </svg>
           </a>
         </li>
-        <li>
+        <li className="w-full sm:w-auto text-center">
           <a 
             href="/myprojects" 
-            className="group flex items-center space-x-2 hover:text-[#FF69B4] hover:scale-110 transform transition-all duration-300"
+            className="group flex items-center justify-center space-x-2 hover:text-[#FF69B4] hover:scale-110 transform transition-all duration-300"
           >
             <span>Mis Proyectos</span>
             <svg 
@@ -68,4 +71,4 @@ export default function NavBar() {
       </ul>
     </nav>
   );
-} 
+}

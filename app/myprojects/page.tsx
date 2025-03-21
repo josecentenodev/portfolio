@@ -20,12 +20,40 @@ export default function MyProjects() {
       image: "/teamradomizer.webp"
     },
     {
-      title: "Fernando Martinena Portfolio",
-      description: "Portfolio personal de Fernando Martinena, desarrollado con React, TypeScript, Tailwind CSS y Next.js. Posee un dashboard para administrar el portfolio y una bandeja de entrada para contactar con el.",
+      title: "Fernando Martinena Portfolio 📝",
+      description: "Portfolio personal de Fernando Martinena, desarrollado con React, TypeScript, Tailwind CSS, Next.js, NextAuth, Uploadthing. Posee un dashboard para administrar el portfolio y una bandeja de entrada para contactar con el.",
       url: "https://fernandomartinena.vercel.app",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js"],
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js", "NextAuth", "Uploadthing"],
       image: "/fernandomartinena.webp"
     },
+    {
+      title: "Animals 🐾",
+      description: "App para ver fotos de animales. Utiliza React, TypeScript, Tailwind CSS, Next.js, Uploadthing, Clerk.",
+      url: "https://animals-josecentenodev.vercel.app",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Uploadthing", "Clerk"],
+      image: "/animals.webp"
+    },
+    {
+      title: "Imaginify 🎨",
+      description: "App para crear imágenes con IA. Utiliza React, TypeScript, Tailwind CSS, Next.js, Cloudinary, Clerk.",
+      url: "https://saasimage.vercel.app",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Cloudinary", "Clerk"],
+      image: "/imaginify.webp"
+    },
+    {
+      title: "Promptopia 💡",
+      description: "App para crear prompts y compartirlos. Utiliza React, TypeScript, Tailwind CSS, Next.js, Clerk.",
+      url: "https://share-prompts-josecentenodev.vercel.app",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Clerk"],
+      image: "/promptopia.webp"
+    },
+    {
+      title: "Gif App 🎥",
+      description: "App para buscar gifs. Utiliza React y Tailwind CSS. Fue mi primer proyecto con React.",
+      url: "https://giffyapp-josecentenodev.vercel.app",
+      technologies: ["React", "Tailwind CSS", "Giphy API"],
+      image: "/giffy.webp"
+    }
   ];
 
   return (
