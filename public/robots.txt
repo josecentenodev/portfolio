@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://josecentenodev.vercel.app/sitemap.xml

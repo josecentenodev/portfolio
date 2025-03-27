@@ -8,9 +8,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --glass-bg: rgba(0, 0, 0, 0.75);
-  --glass-border: rgba(255, 255, 255, 0.1);
-  --glass-hover: rgba(0, 0, 0, 0.85);
+  --glass-bg: rgba(0, 0, 0, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.17);
+  --glass-hover: rgba(0, 0, 0, 0.90);
 }
 
 @media (prefers-color-scheme: dark) {
