@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
+import Header from '@/app/_components/Header';
 
 export default function DrumKit() {
   const [activeKey, setActiveKey] = useState<string | null>(null);
@@ -51,29 +51,14 @@ export default function DrumKit() {
     <div className="min-h-screen p-4 sm:p-8">
       <main className="max-w-4xl mx-auto">
         <div className="glass-container p-8 mb-8">
-          <Link 
-            href="/javascript30" 
-            className="inline-flex items-center text-sm hover:text-white transition-colors mb-6"
-          >
-            <svg 
-              className="w-4 h-4 mr-2" 
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24"
-            >
-              <path 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth={2} 
-                d="M10 19l-7-7m0 0l7-7m-7 7h18" 
-              />
-            </svg>
-            Volver a los desafíos
-          </Link>
-          <h1 className="text-4xl font-bold mb-4">JavaScript Drum Kit</h1>
-          <p className="text-gray-300 mb-8">
-            Presiona las teclas o haz clic en los botones para tocar la batería
-          </p>
+          <Header
+            title="JavaScript Drum Kit"
+            description="Presiona las teclas o haz clic en los botones para tocar la batería"
+            backLink={{
+              href: "/javascript30",
+              text: "Volver a los desafíos"
+            }}
+          />
           <div className="flex flex-row items-center justify-center gap-4">
             <button data-key="A" className={getButtonClass("A")} onClick={() => handleClick("A", "boom")}>
               <span className="text-2xl font-bold">A</span>

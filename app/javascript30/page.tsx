@@ -38,6 +38,13 @@ const challenges = [
     demo: "/javascript30/type-ahead",
     tags: ["JavaScript", "API"],
   },
+  {
+    day: 8,
+    title: "Fun with HTML5 Canvas",
+    description: "Experimenta con el canvas HTML5 para crear gráficos interactivos",
+    demo: "/javascript30/canvas",
+    tags: ["HTML5", "Canvas"],
+  },
   // Añadir más desafíos aquí
 ];
 

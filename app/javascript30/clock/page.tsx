@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
+import Header from "@/app/_components/Header";
 
 export default function Clock() {
   const [hour, setHour] = useState(0);
@@ -25,29 +25,14 @@ export default function Clock() {
     <div className="min-h-screen p-4 sm:p-8">
       <main className="max-w-4xl mx-auto">
         <div className="glass-container p-8 mb-8">
-          <Link
-            href="/javascript30"
-            className="inline-flex items-center text-sm hover:text-white transition-colors mb-6"
-          >
-            <svg
-              className="w-4 h-4 mr-2"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M10 19l-7-7m0 0l7-7m-7 7h18"
-              />
-            </svg>
-            Volver a los desafíos
-          </Link>
-          <h1 className="text-4xl font-bold mb-4">JS and CSS Clock</h1>
-          <p className="text-gray-300 mb-8">
-            Un reloj analógico estilizado inspirado en Roronoa Zoro
-          </p>
+          <Header
+            title="JS and CSS Clock"
+            description="Un reloj analógico estilizado inspirado en Roronoa Zoro"
+            backLink={{
+              href: "/javascript30",
+              text: "Volver a los desafíos",
+            }}
+          />
 
           <div className="clock-container">
             <div className="zoro-bg"></div>

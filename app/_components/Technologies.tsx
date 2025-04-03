@@ -11,22 +11,22 @@ export default function Technologies() {
     {
       name: 'Frontend',
       technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Angular', 'Angular Material', 'Material UI', 'Astro', 'Axios', 'Mantine UI', 'Shadcn UI'],
-      badgeColor: 'bg-blue-500'
+      badgeColor: 'bg-blue-600'
     },
     {
       name: 'Backend',
       technologies: ['Node.js', 'Express', 'PostgreSQL', 'MySQL', 'tRPC', 'SQL Server', 'Django REST framework', 'Python'],
-      badgeColor: 'bg-green-500'
+      badgeColor: 'bg-green-600'
     },
     {
       name: 'Herramientas',
       technologies: ['Git', 'Docker', 'AWS', 'Postman', 'Swagger', 'Jira', 'Figma', 'Visual Studio Code', 'Cursor',],
-      badgeColor: 'bg-purple-500'
+      badgeColor: 'bg-purple-600'
     },
     {
       name: 'Testing',
       technologies: ['Jest', 'Cypress'],
-      badgeColor: 'bg-orange-500'
+      badgeColor: 'bg-orange-600'
     }
   ];
 
