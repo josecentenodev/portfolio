@@ -61,7 +61,7 @@ export default function MyProjects() {
       <main className="max-w-4xl mx-auto">
         <div className="glass-container p-8 mb-8">
           <Header
-            title="Mis Proyectos"
+            title="Mini Proyectos"
             description="Una colección de proyectos que demuestran mis habilidades y pasión por el desarrollo web."
             backLink={{
               href: "/",

@@ -52,7 +52,7 @@ export default function NavBar() {
             href="/myprojects" 
             className="group flex items-center justify-center space-x-2 hover:text-[#FF69B4] hover:scale-110 transform transition-all duration-300"
           >
-            <span>Mis Proyectos</span>
+            <span>Mini Proyectos</span>
             <svg 
               className="w-4 h-4 transform transition-transform group-hover:translate-x-1" 
               fill="none" 
