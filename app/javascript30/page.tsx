@@ -52,6 +52,13 @@ const challenges = [
     demo: "/javascript30/mouse-move-shadow",
     tags: ["JavaScript", "CSS"],
   },
+  {
+    day: 27,
+    title: "Click and Drag",
+    description: "Crea un efecto de arrastre con el mouse",
+    demo: "/javascript30/click-and-drag",
+    tags: ["JavaScript", "CSS"],
+  },
   // Añadir más desafíos aquí
 ];
 
