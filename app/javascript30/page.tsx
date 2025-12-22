@@ -45,6 +45,13 @@ const challenges = [
     demo: "/javascript30/canvas",
     tags: ["HTML5", "Canvas"],
   },
+  {
+    day: 16,
+    title: "Mouse Move Shadow",
+    description: "Crea un efecto de sombra que sigue el movimiento del mouse",
+    demo: "/javascript30/mouse-move-shadow",
+    tags: ["JavaScript", "CSS"],
+  },
   // Añadir más desafíos aquí
 ];
 
