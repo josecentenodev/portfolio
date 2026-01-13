@@ -27,7 +27,7 @@ export default function Profile() {
             Desarrollador Full Stack especializado en frontend
           </p>
           <p className="text-base sm:text-lg text-gray-300 mb-8 max-w-2xl leading-relaxed">
-            Con más de dos años de experiencia en desarrollo eficiente y escalable. 
+            Con más de tres años de experiencia en desarrollo eficiente y escalable. 
             Dedicado a crear soluciones web robustas y mantenibles. 
             Disponible para nuevos proyectos y colaboraciones.
           </p>
